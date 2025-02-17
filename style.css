@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.contenaire{
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    gap: 25px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+    background-color: white;
+    border-radius: 50px;
+    width: 45%;
+}
+.right{
+    width: 50%;
+}
+.element{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    min-height: 75px;
+    border-radius: 25px;
+    color: white;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0;
+}
+.element svg {
+    width: 20px; 
+    height: 20px;
+    flex-shrink: 0;
+}
